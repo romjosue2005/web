@@ -1,0 +1,479 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+html{
+    
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 10px;
+
+    }
+}
+.qui {
+    position: relative;
+width: 900px;
+}
+.rata{
+    position: absolute;
+    left: 100px;
+
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        font-family: HoloLens MDL2 Assets;
+    
+}
+.rata2{
+        position: absolute;
+    right: 100px;
+ 
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        font-family: HoloLens MDL2 Assets;
+    
+}
+
+.card1{position: absolute;
+    bottom: -1190px;
+    left: 110px;
+     border-radius: 50px; 
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+}
+.card2{
+    position: absolute;
+    bottom:  -1190px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card3{
+    position: absolute;
+       bottom:  -1190px;
+    right: 110px;
+    border-radius: 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.card4{
+    position: absolute;
+      bottom:  -1600px;
+    left: 190px;
+}
+.card5{
+    position: absolute;
+     bottom:  -1585px;
+    left:  860px;
+     
+}
+
+
+
+.card6{
+    position: absolute;
+      bottom:  -1990px;
+    left: 200px;
+}
+
+
+.card7{
+    position: absolute;
+     bottom:  -1990px;
+    left: 800px;
+}
+
+
+.rata3{
+
+    position: absolute;
+top: 450%;
+    background-color:limegreen;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        font-family: HoloLens MDL2 Assets;
+    width: 100%;
+}
+.mapa{
+  
+    margin-left: 75%;
+    
+}
+@media (max-width: 800px) {
+    rata3 {
+        flex-direction: column;
+    }
+    rata3 {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    rata3 {
+        flex-direction: column;
+    }
+    rata3 {
+        margin-bottom: 10px;
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    mapa {
+        flex-direction: column;
+    }
+    mapa {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    mapa {
+        flex-direction: column;
+    }
+    mapa {
+        margin-bottom: 10px;
+
+    }
+}
+
+@media (max-width: 800px) {
+   rata {
+        flex-direction: column;
+    }
+    rata {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+  rata{
+        flex-direction: column;
+    }
+    rata{
+        margin-bottom: 10px;
+
+    }
+}
+@media (max-width: 800px) {
+   rata2 {
+        flex-direction: column;
+    }
+    rata2{
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+  rata2{
+        flex-direction: column;
+    }
+    rata2{
+        margin-bottom: 10px;
+
+    }
+}
+.face{
+    position: absolute;
+    top:100px; 
+}
+.you{
+     position: absolute;
+    top:100px; 
+    left: 110px;
+}
+.tik{
+     position: absolute;
+    top:100px; 
+    left: 170px;
+}
+
+.insta{
+    position: absolute;
+    top:100px; 
+    left: 235px;
+}
+
+.con{
+    position: absolute;
+    left:7%;
+    top:15%;
+    color: white;
+  
+}
+
+.inst{
+    position: absolute;
+    top:15%;
+    left:35%;
+    
+}
+.ubi{
+    position: absolute;
+    left:60%;
+    top:15%;
+    color: white;
+
+    
+    
+}
+.btn btn-primary{
+   color: limegreen;
+}
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --white-color: hsl(170, 12%, 98%);
+  --gray-color: hsl(170, 4%, 60%);
+  --black-color: hsl(170, 12%, 8%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Bona Nova", serif;
+  --normal-font-size: .938rem;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1120px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--black-color);
+  color: var(--gray-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.container {
+  display: grid;
+  margin-inline: 1.5rem;
+  padding-block: 5rem;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card__article {
+  position: relative;
+  background-color: var(-- gainsboro-color);
+ 
+  padding: 3rem 1.5rem 1.5rem;
+  display: grid;
+  row-gap: 1rem;
+  overflow: hidden;
+  transition: background-color .6s;
+      
+}
+
+.card__img {
+  width: 500px;
+  justify-self: center;
+  filter: drop-shadow(0 8px 24px hsla(170, 12%, 8%, .1));
+  transition: transform .4s;
+
+}
+
+.card__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  transition: transform .4s, opacity .4s;
+    
+}
+
+.card__title {
+  font-size: var(--normal-font-size);
+  font-weight: 400;
+}
+
+.card__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.3);
+  z-index: -1;
+  transition: transform .4s;
+}
+
+.card__button {
+  background-color: var(--white-color);
+  padding: .75rem 1rem;
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  justify-self: center;
+  box-shadow: 0 8px 24px hsla(170, 12%, 8%, .1);
+  position: absolute;
+  bottom: -1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .4s, opacity .4s;
+}
+
+.card__button i {
+  font-size: 1.25rem;
+  transition: transform .4s;
+}
+.card__button:hover i {
+  transform: translateX(.5rem);
+}
+
+/* Card animation */
+.card__article:hover .card__img {
+  transform: translateY(-1.5rem);
+}
+
+.card__article:hover .card__data {
+  transform: translateY(-4.5rem);
+  opacity: 0;
+}
+
+.card__article:hover {
+  background-color: transparent;
+}
+
+.card__article:hover .card__bg {
+  transform: scale(1);
+}
+
+.card__article:hover .card__button {
+  transform: translateY(-3.75rem);
+  opacity: 1;
+  pointer-events: initial;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 300px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .card__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .container {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+  }
+
+  .card__img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
