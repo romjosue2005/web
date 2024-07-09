@@ -1,0 +1,232 @@
+body{
+    
+        background-image: url(c.png);
+    background-attachment: fixed;
+}
+h2{
+    position: absolute;
+    color: white;
+     font-family: HoloLens MDL2 Assets;
+}
+.h{position: absolute;
+    margin-left: 27%;
+   padding-top: 8%;
+    
+    
+    
+}
+.i{
+    position: absolute;
+      margin-left: 38%;
+   padding-top: 8%;
+
+    
+}
+.j{
+    position: absolute;
+          margin-left: 49%;
+   padding-top: 8%;
+    
+    
+    
+}
+.k{
+    position: relative;
+   
+    margin-left: 60%;
+   padding-top: 8%;
+    
+}
+.L{
+    position: absolute;
+    
+      top:50%; 
+    left: 27%;
+}
+.m{
+    position: absolute;
+        top:50%; 
+    left: 38%;
+    
+}
+.n{
+    position: absolute;
+       top:50%; 
+    left: 49%;
+    
+    
+}
+.o{
+    position: absolute;
+       top:50%; 
+    left: 60%;
+    
+    
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+        body {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+      body {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .h {
+        flex-direction: column;
+    }
+    .h {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .h {
+        flex-direction: column;
+    }
+    .h {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .i {
+        flex-direction: column;
+    }
+    .i {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .i {
+        flex-direction: column;
+    }
+    .i {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .j {
+        flex-direction: column;
+    }
+    .j {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .j {
+        flex-direction: column;
+    }
+    .j {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .k {
+        flex-direction: column;
+    }
+    .k {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .k {
+        flex-direction: column;
+    }
+    .k {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .L {
+        flex-direction: column;
+    }
+    .L {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .L {
+        flex-direction: column;
+    }
+    .L {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .m {
+        flex-direction: column;
+    }
+    .m {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .m {
+        flex-direction: column;
+    }
+    .m {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .n {
+        flex-direction: column;
+    }
+    .n {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .n {
+        flex-direction: column;
+    }
+    .n {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .o {
+        flex-direction: column;}
+    }
+    .o {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 500px) {
+    .o {
+        flex-direction: column;
+    }
+    .o {
+        margin-bottom: 10px;
+    }
+}
+
+img:hover{
+    background-color: black;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
